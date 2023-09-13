@@ -1,6 +1,6 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-<xsl:output method="html"/>
+
 <xsl:template match="/">
 <html><head><title>Books Styled</title></head>
 <body><h1 style="font-style:italic; color:red;">Books</h1>
@@ -9,9 +9,11 @@ style="float:left; margin-right: 10px;"/> The <xsl:value-of
 select="books/book/name"/> was written by <strong><xsl:value-of
 select="books/book/author"/></strong></p>
 </body></html>
+<xsl:output method="html"/>
 
-</xsl:template>
-</xsl:stylesheet>
+</xsl:template>	
+</xsl:stylesheet>	
+<books>
    <book>
       <name language="English">Intro to XML</name>
 	  <author>Joseph Smith</author>
