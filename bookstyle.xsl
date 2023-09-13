@@ -7,9 +7,7 @@
 <p> <img src="books.jpg" alt="3 red books piled" width="100" height="100"
 style="float:left; margin-right: 10px;"/> The <xsl:value-of
 select="books/book/name"/> was written by <strong><xsl:value-of
-select="books/book/author"/></strong></p>
-</body></html>
-<xsl:output method="html"/>	
+select="books/book/author"/></strong></p>	
 
 	
 <books>
@@ -29,6 +27,9 @@ select="books/book/author"/></strong></p>
 	  <year>2010</year>
    </book>
 </books>
+
+</body></html>
+<xsl:output method="html"/>
 
 </xsl:template>	
 </xsl:stylesheet>
