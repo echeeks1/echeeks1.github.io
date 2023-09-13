@@ -11,6 +11,6 @@ select="books/book/author"/></strong></p>
 </body></html>
 <xsl:output method="html"/>
 
+  
 </xsl:template>	
 </xsl:stylesheet>	
-
