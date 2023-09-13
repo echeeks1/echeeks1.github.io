@@ -9,12 +9,9 @@ style="float:left; margin-right: 10px;"/> The <xsl:value-of
 select="books/book/name"/> was written by <strong><xsl:value-of
 select="books/book/author"/></strong></p>
 </body></html>
-<xsl:output method="html"/>
+<xsl:output method="html"/>	
 
-  
-</xsl:template>	
-</xsl:stylesheet>	
-
+	
 <books>
    <book>
       <name language="English">Intro to XML</name>
@@ -32,3 +29,6 @@ select="books/book/author"/></strong></p>
 	  <year>2010</year>
    </book>
 </books>
+
+</xsl:template>	
+</xsl:stylesheet>
