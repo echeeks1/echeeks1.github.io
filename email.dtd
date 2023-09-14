@@ -1,0 +1,6 @@
+<!ELEMENT email (note)>
+<!ELEMENT note (to,from,subject,msg)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT msg (#PCDATA)>

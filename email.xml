@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email SYSTEM "email.dtd" [
+<!ENTITY course "CNIT 131A">
+]>
+<email>
+ <note>
+   <to>John</to>
+   <from>Judy</from>
+   <subject>Learning XML</subject>
+   <msg>I am learning XML at &course;</msg>
+ </note>
+</email>

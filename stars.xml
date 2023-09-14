@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE stars [
+  <!ELEMENT stars (star)*>
+  <!ELEMENT star EMPTY>
+  <!ATTLIST star images ENTITIES #REQUIRED>
+  <!ENTITY a1 SYSTEM
+    "https://images.pexels.com/photos/301599/pexels-photo-301599.jpeg?cs=srgb&dl=abstract-beach-bright-clouds-301599.jpg&fm=jpg">
+  <!ENTITY a2 SYSTEM
+    "https://images.pexels.com/photos/147465/pexels-photo-147465.jpeg?cs=srgb&dl=sunset-147465.jpg&fm=jpg">
+]>
+<stars>
+  <results images="a1 a2"/>
+</stars>

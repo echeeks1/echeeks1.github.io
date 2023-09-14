@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink" width="500px" height="350px">
+<a xlink:href="http://www.ccsf.edu">
+   <text x="10" y="150">City College of San Francisco</text>
+</a>
+<script type="text/javascript" xlink:href="script.js" />
+<path id="mypath" fill="none" stroke="none" d="M 40 120 Q 50 -20 390 80" />
+<text fill="blue" font-size="2em">
+   <textPath xlink:href="#mypath">
+      Creating a Curved Text with SVG
+   </textPath>
+</text>
+<defs>
+   <g id="redalert" font-size="3em">
+      <circle r="30px" fill="red" />
+	  <text x="-10" y="20" fill="white">!</text>
+   </g>
+</defs>
+<use x="100" y="100" xlink:href="#redalert" />
+<use x="200" y="100" xlink:href="#redalert" />
+<use x="300" y="100" xlink:href="#redalert" />
+</svg>
