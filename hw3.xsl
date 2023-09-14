@@ -12,13 +12,14 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <th>Email</th>
         <th>Account_Total</th>
       </tr>
-      <xsl:for-each select=
+      <xsl:for-each select="people/person">
       <tr>
         <td>.</td>
         <td>.</td>
         <td>.</td>
         <td>.</td>
       </tr>
+        </xsl:for-each>
     </table>
   </body>
   </html>
