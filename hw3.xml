@@ -14,12 +14,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <th>Account_Total</th>
       </tr>
       <xsl:for-each select="people/person">
-      <tr>
+      <td>
       <xsl:value-of select="Name"/></td>
       <xsl:value-of select="Phone"/></td>
       <xsl:value-of select="Email"/></td>
       <xsl:value-of select="Account_Total"/></td>
-      </tr>
+      </td>
         </xsl:for-each>
     </xsl:value-of
   
