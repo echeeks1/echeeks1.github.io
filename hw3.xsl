@@ -5,6 +5,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <html>
   <body>
      <table>
+       <xsl:value-of>
     <h1>List of Clients</h1>
     <table border="1">
       <tr bgcolor="#9acd32">
