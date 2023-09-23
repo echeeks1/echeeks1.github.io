@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding="UTF-8"?>
 <Accounts>
-
+  <rd>
 <Client ID="CS5355">
 <Name>
   <First>Grant</First>
@@ -14,10 +14,11 @@
 </Address>
 <Phone>(532) 555-9939</Phone>
 <E-mail>gwu@brockton.com</E-mail>
-<Account_Total>60000
+<Account_Total>$60000
 </Account_Total>
 </Client>
-
+  </rd>
+  <rd>
 <Client ID="CS5108">
 <Name>
   <First>Cynthia</First>
@@ -31,10 +32,11 @@
 </Address>
 <Phone>(532) 555-3813</Phone>
 <E-mail>cynthia@brownes.com</E-mail>
-<Account_Total>80000
+<Account_Total>$80,000
 </Account_Total>
 </Client>
-
+  </rd>
+  <rd>
 <Client ID="CS5331">
 <Name>
   <First>Robert</First>
@@ -48,9 +50,10 @@
 </Address>
 <Phone>(532) 555-8981</Phone>
 <E-mail>rolson@delisp.net</E-mail>
-<Account_Total>25000</Account_Total>
+<Account_Total>$25,000</Account_Total>
 </Client>
-
+  </rd>
+  <rd>
 <Client ID="CS5771">
 <Name>
   <First>Steve</First>
@@ -64,9 +67,10 @@
 </Address>
 <Phone>(533) 555-5434</Phone>
 <E-mail>Sbone@mail.com</E-mail>
-<Account_Total>105000</Account_Total>
+<Account_Total>$10,5000</Account_Total>
 </Client>
-
+  </rd>
+  <rd>
 <Client ID="CS5981">
 <Name>
   <First>Jim</First>
@@ -80,9 +84,10 @@
 </Address>
 <Phone>(542) 555-8828</Phone>
 <E-mail>jim_wheatley@kyu.edu</E-mail>
-<Account_Total>83000</Account_Total>
+<Account_Total>$83,000</Account_Total>
 </Client>
-
+  </rd>
+  <rd>
 <Client ID="CS5308">
 <Name>
   <First>Cindy</First>
@@ -96,9 +101,10 @@
 </Address>
 <Phone>(532) 555-7212</Phone>
 <E-mail>cka@ispnet.net</E-mail>
-<Account_Total>125000</Account_Total>
+<Account_Total>$125,000</Account_Total>
 </Client>
-
+  </rd>
+  <rd>
 <Client ID="CS5250">
 <Name>
   <First>Lee</First>
@@ -112,9 +118,10 @@
 </Address>
 <Phone>(534) 555-9082</Phone>
 <E-mail>leehayes@clarion.net</E-mail>
-<Account_Total>118000</Account_Total>
+<Account_Total>$118,000</Account_Total>
 </Client>
-
+  </rd>
+  <rd>
 <Client ID="CS5981">
 <Name>
   <First>Jane</First>
@@ -128,8 +135,8 @@
 </Address>
 <Phone>(534) 555-7493</Phone>
 <E-mail>jwilson@cls.net</E-mail>
-<Account_Total>95000</Account_Total>
+<Account_Total>$95,000</Account_Total>
 </Client>
-
+  </rd>
 </Accounts>
 
