@@ -21,7 +21,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <xsl:value-of select="Account_Total"/>
      
         </xsl:for-each>
-    </xsl:value-of
+    </xsl:value-of>
     </table>
   </body>
   </html>
