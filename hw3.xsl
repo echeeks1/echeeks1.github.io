@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <xsl:stylesheet version="1.0"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
@@ -13,7 +14,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <th>Email</th>
         <th>Account_Total</th>
       </tr>
-      <xsl:for-each select="people/person">
+      <xsl:for-each select="Accounts/rd">
       <xsl:sort select="phone"/>
       <tr>
         <td><xsl:value-of select="Name"/></td>
