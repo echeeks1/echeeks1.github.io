@@ -16,7 +16,7 @@
         <th>Email</th>
         <th>Account Total</th>
       </tr>
-      <xsl:for-each select="3/hw">
+      <xsl:for-each select="tr/th">
        <xsl:sort select="Account Total"/>
       <tr>
         <th>
