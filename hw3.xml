@@ -7,15 +7,15 @@
 <th><E-mail>gwu@brockton.com</E-mail></th>
 <th><Account_Total>$60,000</Account_Total></th>
 </tr>
-  <hw>
-<Client_ClientID="CS5108"><Name><First>Cynthia</First><Last>Browne</Last></Name>
+<tr>
+<th><Name><First>Cynthia</First><Last>Browne</Last></Name>
 <Address><Street>71 Circuit Ct.</Street><City>Wheaton</City><State>MN</State><Zip>89321</Zip></Address>
 <Phone>(532) 555-3813</Phone>
 <E-mail>cynthia@brownes.com</E-mail>
 <Account_Total>$80,000</Account_Total>
 </Client>
    </hw>
-  <hw>
+ <tr>
 <Client ClientID="CS5331">
 <Name>
   <First>Robert</First>
