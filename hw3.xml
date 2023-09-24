@@ -1,6 +1,6 @@
-<?xml version = "1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hw3.xsl"?>
-<Accounts>
+<hw3>
   <rd>
 <Client ID="CS5355">
 <Name>
@@ -15,8 +15,8 @@
 </Address>
 <Phone>(532) 555-9939</Phone>
 <E-mail>gwu@brockton.com</E-mail>
-<Account_Total>$60000
-</Account_Total>
+<Account Total>$60000
+</Account Total>
 </Client>
   </rd>
   <rd>
@@ -33,8 +33,8 @@
 </Address>
 <Phone>(532) 555-3813</Phone>
 <E-mail>cynthia@brownes.com</E-mail>
-<Account_Total>$80,000
-</Account_Total>
+<Account Total>$80,000
+</Account Total>
 </Client>
   </rd>
   <rd>
@@ -51,7 +51,7 @@
 </Address>
 <Phone>(532) 555-8981</Phone>
 <E-mail>rolson@delisp.net</E-mail>
-<Account_Total>$25,000</Account_Total>
+<Account Total>$25,000</Account Total>
 </Client>
   </rd>
   <rd>
@@ -68,7 +68,7 @@
 </Address>
 <Phone>(533) 555-5434</Phone>
 <E-mail>Sbone@mail.com</E-mail>
-<Account_Total>$10,5000</Account_Total>
+<Account Total>$10,5000</Account Total>
 </Client>
   </rd>
   <rd>
@@ -85,7 +85,7 @@
 </Address>
 <Phone>(542) 555-8828</Phone>
 <E-mail>jim_wheatley@kyu.edu</E-mail>
-<Account_Total>$83,000</Account_Total>
+<Account Total>$83,000</Account Total>
 </Client>
   </rd>
   <rd>
@@ -102,7 +102,7 @@
 </Address>
 <Phone>(532) 555-7212</Phone>
 <E-mail>cka@ispnet.net</E-mail>
-<Account_Total>$125,000</Account_Total>
+<Account Total>$125,000</Account Total>
 </Client>
   </rd>
   <rd>
@@ -119,7 +119,7 @@
 </Address>
 <Phone>(534) 555-9082</Phone>
 <E-mail>leehayes@clarion.net</E-mail>
-<Account_Total>$118,000</Account_Total>
+<Account Total>$118,000</Account Total>
 </Client>
   </rd>
   <rd>
@@ -136,7 +136,7 @@
 </Address>
 <Phone>(534) 555-7493</Phone>
 <E-mail>jwilson@cls.net</E-mail>
-<Account_Total>$95,000</Account_Total>
+<Account Total>$95,000</Account Total>
 </Client>
   </rd>
 </Accounts>
