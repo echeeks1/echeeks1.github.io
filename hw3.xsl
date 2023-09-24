@@ -27,11 +27,11 @@
         </td>
         <td>
           <xsl:value-of select="Account Total"/>
-        </td>
+       </td>
       </tr>
-      </xsl:for-each>
+     </xsl:for-each>
     </table>
-  </body>
+   </body>
   </html>
-</xsl:template>
+ </xsl:template>
 </xsl:stylesheet>
