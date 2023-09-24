@@ -14,7 +14,6 @@
         <th>Account Total</th>
       </tr>
       <xsl:for-each select="Clients/Name">
-      <xsl:sort select="Phone"/>
       <tr>
         <td>
           <xsl:value-of select="Name"/>
@@ -29,7 +28,6 @@
           <xsl:value-of select="Account Total"/>
         </td>
       </tr>
-      </xsl:sort>
       </xsl:for-each>
     </table>
   </body>
