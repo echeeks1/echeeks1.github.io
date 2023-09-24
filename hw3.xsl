@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" 
 
 <xsl:stylesheet version="1.0"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
@@ -12,15 +12,15 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <th>Name</th>
         <th>Phone</th>
         <th>Email</th>
-        <th>Account_Total</th>
+        <th>Account Total</th>
       </tr>
       <xsl:for-each select="Accounts/rd">
-      <xsl:sort select="phone"/>
+      <xsl:sort select="Phone"/>
       <tr>
         <td><xsl:value-of select="Name"/></td>
         <td><xsl:value-of select="Phone"/></td>
         <td><xsl:value-of select="Email"/></td>
-        <td><xsl:value-of select="Account_Total"/></td>
+        <td><xsl:value-of select="Account Total"/></td>
       </tr>
       </xsl:for-each>
     </table>
