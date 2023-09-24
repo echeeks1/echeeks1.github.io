@@ -3,7 +3,7 @@
  <xsl:template match="/">
   <html>
    <head><title><h1>List of Clients</h1></title>
-   <style> table, th, td { border: 1px double black; } th { background-color: lime; } .bgred { background-color: red; color: white; } </style>
+   <style> table, th, td { border: 1px double white; } th { background-color: blue; } .bgred { background-color: red; color: white; } </style>
    </head>
     <body>
      <h1>List of Clients</h1>
