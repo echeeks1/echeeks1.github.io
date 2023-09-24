@@ -3,10 +3,11 @@
  
  <xsl:template match="/">
   <html>
-   <head><title><h1>List of Clients</h1></title>
+
    <style> table, th, td { border: 1px double black; } th { background-color: lightblue; } .bgred { background-color: red; color: white; } </style>
    </head>
     <body>
+     
      <h1>List of Clients</h1>
     <table>
      <tr>
