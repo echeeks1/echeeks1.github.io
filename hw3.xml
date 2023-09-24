@@ -1,6 +1,7 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type="text/xsl" href="hw3.xsl"?>
-  <rd>
+<?xml-stylesheet type="text/xsl" 
+                 href="hw3.xsl"?>
+<hw>
 <Client ID="CS5355">
 <Name>
   <td><First>Grant</First></td>
@@ -17,8 +18,7 @@
 <Account Total>$60000
 </Account Total>
 </Client>
-  </rd>
-  <rd>
+ 
 <Client ID="CS5108">
 <Name>
   <First>Cynthia</First>
@@ -35,8 +35,7 @@
 <Account Total>$80,000
 </Account Total>
 </Client>
-  </rd>
-  <rd>
+  
 <Client ID="CS5331">
 <Name>
   <First>Robert</First>
@@ -52,8 +51,7 @@
 <E-mail>rolson@delisp.net</E-mail>
 <Account Total>$25,000</Account Total>
 </Client>
-  </rd>
-  <rd>
+ 
 <Client ID="CS5771">
 <Name>
   <First>Steve</First>
@@ -69,8 +67,7 @@
 <E-mail>Sbone@mail.com</E-mail>
 <Account Total>$10,5000</Account Total>
 </Client>
-  </rd>
-  <rd>
+  
 <Client ID="CS5981">
 <Name>
   <First>Jim</First>
@@ -86,8 +83,7 @@
 <E-mail>jim_wheatley@kyu.edu</E-mail>
 <Account Total>$83,000</Account Total>
 </Client>
-  </rd>
-  <rd>
+  
 <Client ID="CS5308">
 <Name>
   <First>Cindy</First>
@@ -103,8 +99,7 @@
 <E-mail>cka@ispnet.net</E-mail>
 <Account Total>$125,000</Account Total>
 </Client>
-  </rd>
-  <rd>
+  
 <Client ID="CS5250">
 <Name>
   <First>Lee</First>
@@ -120,8 +115,7 @@
 <E-mail>leehayes@clarion.net</E-mail>
 <Account Total>$118,000</Account Total>
 </Client>
-  </rd>
-  <rd>
+ 
 <Client ID="CS5981">
 <Name>
   <First>Jane</First>
@@ -137,4 +131,4 @@
 <E-mail>jwilson@cls.net</E-mail>
 <Account Total>$95,000</Account Total>
 </Client>
-  </rd>
+  </hw>
