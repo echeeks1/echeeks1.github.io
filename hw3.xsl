@@ -3,7 +3,7 @@
   <html>
    <head>
      <title>List of Clients</title>
-     <style> table, th, td { border: 1px blue; } th { background-color: blue } bgcolor="#9acd32" { background-color: red; color: white; } </style>
+     <style> table, th, td { border: 1px blue; } th { background-color: blue; } .bgcolor="#9acd32" { background-color: red; color: white; } </style>
    </head>
    <body>
     <h1>List of Clients</h1>
