@@ -2,8 +2,11 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">  
  <xsl:template match="/">
   <html>
-   <head><title><h1>List of Clients</h1></title></head>
-   <body>
+   <head><title><h1>List of Clients</h1></title>
+   <style> table, th, td { border: 1px double black; } th { background-color: lime; } .bgred { background-color: red; color: white; } </style>
+   </head>
+    <body>
+     <h1>List of Clients</h1>
     <table>
      <tr>
         <th>Name</th>
