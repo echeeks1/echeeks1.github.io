@@ -13,7 +13,7 @@
         <th>Email</th>
         <th>Account Total</th>
       </tr>
-      <xsl:for-each select="Clients/Name">
+      <xsl:for-each select="hw/Client">
       <tr>
         <td>
           <xsl:value-of select="Name"/>
