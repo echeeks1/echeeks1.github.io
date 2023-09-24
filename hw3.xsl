@@ -2,9 +2,13 @@
  <xsl:template match="/">
   <html>
    <head>
-     <title><h1>List of Clients</h1></title>
-     <style>table, th, td { border="1" blue >
-      <tr bgcolor="#9acd32">
+     <title>List of Clients</title>
+     <style>table, th, td { border="1" blue; } th { tr bgcolor="#9acd32" } { background-color: red; color: white; } </style>
+   </head>
+   <body>
+    <h1>List of Clients</h1>
+    <table>
+     <tr>
         <th>Name</th>
         <th>Phone</th>
         <th>Email</th>
