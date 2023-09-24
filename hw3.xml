@@ -9,14 +9,12 @@
 </tr>
 <tr>
 <th><Name><First>Cynthia</First><Last>Browne</Last></Name>
-<Address><Street>71 Circuit Ct.</Street><City>Wheaton</City><State>MN</State><Zip>89321</Zip></Address>
-<Phone>(532) 555-3813</Phone>
-<E-mail>cynthia@brownes.com</E-mail>
-<Account_Total>$80,000</Account_Total>
-</Client>
-   </hw>
+<th><Address><Street>71 Circuit Ct.</Street><City>Wheaton</City><State>MN</State><Zip>89321</Zip></Address>
+<th><Phone>(532) 555-3813</Phone>
+<th><E-mail>cynthia@brownes.com</E-mail>
+<th><Account_Total>$80,000</Account_Total>
+   </tr>
  <tr>
-<Client ClientID="CS5331">
 <Name>
   <First>Robert</First>
   <Last>Olson</Last>
@@ -30,9 +28,9 @@
 <Phone>(532) 555-8981</Phone>
 <E-mail>rolson@delisp.net</E-mail>
 <Account Total>$25,000</Account Total>
-</Client>
+</tr>
  
-<Client ClientID="CS5771">
+<tr>
 <Name>
   <First>Steve</First>
   <Last>Bones</Last>
@@ -46,9 +44,9 @@
 <Phone>(533) 555-5434</Phone>
 <E-mail>Sbone@mail.com</E-mail>
 <Account Total>$10,5000</Account Total>
-</Client>
+</tr>
   
-<Client ClientID="CS5981">
+<tr>
 <Name>
   <First>Jim</First>
   <Last>Wheatley</Last>
@@ -62,10 +60,10 @@
 <Phone>(542) 555-8828</Phone>
 <E-mail>jim_wheatley@kyu.edu</E-mail>
 <Account Total>$83,000</Account Total>
-</Client>
+</tr>
   
-<Client ClientID="CS5308">
-<Name>
+<tr>
+   <Name>
   <First>Cindy</First>
   <Last>Kaufmann</Last>
 </Name>
@@ -78,9 +76,9 @@
 <Phone>(532) 555-7212</Phone>
 <E-mail>cka@ispnet.net</E-mail>
 <Account Total>$125,000</Account Total>
-</Client>
+</tr>
   
-<Client ClientID="CS5250">
+<tr>
 <Name>
   <First>Lee</First>
   <Last>Hayes</Last>
@@ -94,9 +92,9 @@
 <Phone>(534) 555-9082</Phone>
 <E-mail>leehayes@clarion.net</E-mail>
 <Account Total>$118,000</Account Total>
-</Client>
+</tr>
  
-<Client ClientID="CS5981">
+<tr>
 <Name>
   <First>Jane</First>
   <Last>Wilson</Last>
@@ -110,6 +108,5 @@
 <Phone>(534) 555-7493</Phone>
 <E-mail>jwilson@cls.net</E-mail>
 <Account Total>$95,000</Account Total>
-</Client>
- </hw>
-</3>
+</tr>
+ 
