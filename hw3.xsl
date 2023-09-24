@@ -21,6 +21,7 @@
         <td><xsl:value-of select="Email"/></td>
         <td><xsl:value-of select="Account Total"/></td>
       </tr>
+      </xsl:sort>
       </xsl:for-each>
     </table>
   </body>
