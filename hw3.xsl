@@ -4,7 +4,7 @@
  <xsl:template match="/">
   <html>
 
-   <style> table, th, tr { border: 1px double black; } th { background-color: lightblue; } .bgred { background-color: red; color: white; } </style>
+   <style> table, th, td { border: 1px double black; } th { background-color: lightblue; } .bgred { background-color: red; color: white; } </style>
    </head>
     <body>
      
