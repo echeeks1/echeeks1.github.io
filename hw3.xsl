@@ -16,6 +16,7 @@
         <th>Account Total</th>
       </tr>
       <xsl:for-each select="3/hw">
+       <xsl:sort select="Account Total"/>
       <tr>
         <td>
           <xsl:value-of select="Name"/>
