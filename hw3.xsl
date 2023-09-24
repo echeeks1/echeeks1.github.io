@@ -4,7 +4,7 @@
  <xsl:template match="/">
   <html>
 
-   <style> table, th, td { border: 1px double black; } th { background-color: lightblue; } .bgred { background-color: red; color: white; } </style>
+   <style> table, th, tr { border: 1px double black; } th { background-color: lightblue; } .bgred { background-color: red; color: white; } </style>
    </head>
     <body>
      
@@ -19,18 +19,18 @@
       <xsl:for-each select="3/hw">
        <xsl:sort select="Account Total"/>
       <tr>
-        <td>
+        <th>
           <xsl:value-of select="Name"/>
-        </td>
-        <td>
+        </th>
+        <th>
           <xsl:value-of select="Phone"/>
-        </td>
-        <td>
+        </th>
+        <th>
           <xsl:value-of select="Email"/>
-        </td>
-        <td>
+        </th>
+        <th>
           <xsl:value-of select="Account Total"/>
-       </td>
+       </th>
       </tr>
      </xsl:for-each>
     </table>
