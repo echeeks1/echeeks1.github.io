@@ -1,12 +1,9 @@
-<?xml version="1.0"?>
-
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-  
-<xsl:template match="/">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">  
+ <xsl:template match="/">
   <html>
-  <body>
-    <h1>List of Clients</h1>
-    <table border="1">
+   <head>
+     <title><h1>List of Clients</h1></title>
+     <style>table, th, td { border="1" blue >
       <tr bgcolor="#9acd32">
         <th>Name</th>
         <th>Phone</th>
