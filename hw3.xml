@@ -3,10 +3,10 @@
                  version="1.0"
                  href="hw3.xsl"?>
 <hw>
-<Client ID="CS5355">
+<Client ClientID="CS5355">
 <Name>
-  <td><First>Grant</First></td>
-  <td><Last>Wu</Last></td>
+  <First>Grant</First>
+  <Last>Wu</Last>
 </Name>
 <Address>
   <Street>55 Hawking Street</Street>
@@ -20,7 +20,7 @@
 </Account Total>
 </Client>
  
-<Client ID="CS5108">
+<Client ClientID="CS5108">
 <Name>
   <First>Cynthia</First>
   <Last>Browne</Last>
@@ -37,7 +37,7 @@
 </Account Total>
 </Client>
   
-<Client ID="CS5331">
+<Client ClientID="CS5331">
 <Name>
   <First>Robert</First>
   <Last>Olson</Last>
@@ -53,7 +53,7 @@
 <Account Total>$25,000</Account Total>
 </Client>
  
-<Client ID="CS5771">
+<Client ClientID="CS5771">
 <Name>
   <First>Steve</First>
   <Last>Bones</Last>
@@ -69,7 +69,7 @@
 <Account Total>$10,5000</Account Total>
 </Client>
   
-<Client ID="CS5981">
+<Client ClientID="CS5981">
 <Name>
   <First>Jim</First>
   <Last>Wheatley</Last>
@@ -85,7 +85,7 @@
 <Account Total>$83,000</Account Total>
 </Client>
   
-<Client ID="CS5308">
+<Client ClientID="CS5308">
 <Name>
   <First>Cindy</First>
   <Last>Kaufmann</Last>
@@ -101,7 +101,7 @@
 <Account Total>$125,000</Account Total>
 </Client>
   
-<Client ID="CS5250">
+<Client ClientID="CS5250">
 <Name>
   <First>Lee</First>
   <Last>Hayes</Last>
@@ -117,7 +117,7 @@
 <Account Total>$118,000</Account Total>
 </Client>
  
-<Client ID="CS5981">
+<Client ClientID="CS5981">
 <Name>
   <First>Jane</First>
   <Last>Wilson</Last>
