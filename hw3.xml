@@ -1,11 +1,10 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type="text/xsl" href="hw3.xsl"?>
-<hw3>
   <rd>
 <Client ID="CS5355">
 <Name>
-  <First>Grant</First>
-  <Last>Wu</Last>
+  <td><First>Grant</First></td>
+  <td><Last>Wu</Last></td>
 </Name>
 <Address>
   <Street>55 Hawking Street</Street>
@@ -139,4 +138,3 @@
 <Account Total>$95,000</Account Total>
 </Client>
   </rd>
-</hw3>
