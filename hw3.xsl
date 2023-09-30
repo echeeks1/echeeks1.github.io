@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">  
  
- <xsl:template match="/">
+<xsl:template match="/">
   <html>
-
+  <body>
    <style> table, th, td { border: 1px double black; } th { background-color: lightblue; } .bgred { background-color: red; color: white; } </style>
    </head>
     <body>
      
-     <h1>List of Clients</h1>
+    <h1>List of Clients</h1>
     <table>
      <tr>
         <th>Name</th>
