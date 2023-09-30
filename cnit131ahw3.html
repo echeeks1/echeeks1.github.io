@@ -17,7 +17,6 @@
         <th>Account Total</th>
       </tr>
       <xsl:for-each select="tr/th">
-       <xsl:sort select="Account Total"/>
       <tr>
         <th>
           <xsl:value-of select="Name"/>
