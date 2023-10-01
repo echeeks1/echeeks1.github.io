@@ -6,8 +6,8 @@
   <html>
   <body>
     <h1>List of Clients</h1>
-    <table border:"1">
-     <tr bgcolor="#9acd32">
+    <table border"1">
+     <tr bgcolor="lightblue">
         <th>Name</th>
         <th>Phone</th>
         <th>Email</th>
