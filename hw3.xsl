@@ -7,7 +7,7 @@
   <body>
   <h1>List of Clients</h1>
   <table border:"1">
-   tr bg=color: lightblue>
+   <tr bg=color: lightblue>
         <th>Name</th>
         <th>Phone</th>
         <th>Email</th>
