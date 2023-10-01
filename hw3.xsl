@@ -18,7 +18,7 @@
         <td><xsl:value-of select="accounts/listof/title"/></td>
         <td><xsl:value-of select="accounts/listof/phone"/></td>
         <td><xsl:value-of select="accounts/listof/e-mail"/></td>
-        <td><xsl:value-of select="accounts/listof/account_total"/></td>
+        <td><xsl:value-of select="accounts/listof/account total"/></td>
     </tr>
      </xsl:for-each>
     </table>
