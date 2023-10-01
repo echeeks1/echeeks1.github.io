@@ -5,14 +5,14 @@
 <xsl:template match="/">
   <html>
   <body>
-  <h1>List of Clients</h1>
-  <table border:"1">
-   <tr bg=color: lightblue>
+    <h1>List of Clients</h1>
+    <table border:"1">
+     <tr bgcolor="#9acd32">
         <th>Name</th>
         <th>Phone</th>
         <th>Email</th>
         <th>Account Total</th>
-   </tr>
+      </tr>
       <xsl:for-each select="accounts/listof">
    <tr>
         <td><xsl:value-of select="accounts/listof/title"/></td>
