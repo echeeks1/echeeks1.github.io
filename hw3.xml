@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <accounts> 
   <listof> 
-    <name><first>Grant</first><last>Wu</last></name>
-    <address><street>55 Hawking</street><city>Delton</city><state>MN</state><zip>89011</zip></address>
+    <name>Grant Wu</name>
+    <address>55 Hawking Delton MN 89011</address>
     <phone>(532) 555-9939</phone>
     <e-mail>gwu@brockton.com</e-mail>
     <account total>$60,000</account total>
