@@ -6,8 +6,8 @@
   <html>
   <body>
   <h1>List of Clients</h1>
-  <style> table { border: 1px double black; } 
-   tr { background-color: lightblue; } { background-color: red; color: white; } </style>
+  <table border:"1">
+   tr bg=color: lightblue>
         <th>Name</th>
         <th>Phone</th>
         <th>Email</th>
@@ -15,19 +15,11 @@
    </tr>
       <xsl:for-each select="accounts/listof">
    <tr>
-        <td>
-          <xsl:value-of select="Name"/>
-        </td>
-        <td>
-          <xsl:value-of select="Phone"/>
-        </td>
-        <td>
-          <xsl:value-of select="Email"/>
-        </td>
-        <td>
-          <xsl:value-of select="Account Total"/>
-       </td>
-      </tr>
+        <td><xsl:value-of select="accounts/listof/title"/></td>
+        <td><xsl:value-of select="accounts/listof/phone"/></td>
+        <td><xsl:value-of select="accounts/listof/e-mail"/></td>
+        <td><xsl:value-of select="accounts/listof/account_total"/></td>
+    </tr>
      </xsl:for-each>
     </table>
    </body>
