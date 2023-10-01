@@ -5,32 +5,28 @@
 <xsl:template match="/">
   <html>
   <body>
-   <style> table, th, td { border: 1px double black; } th { background-color: lightblue; } .bgred { background-color: red; color: white; } </style>
-   </head>
-    <body>
-     
-    <h1>List of Clients</h1>
-    <table>
-     <tr>
+  <h1>List of Clients</h1>
+  <style> table { border: 1px double black; } 
+   tr { background-color: lightblue; } { background-color: red; color: white; } </style>
         <th>Name</th>
         <th>Phone</th>
         <th>Email</th>
         <th>Account Total</th>
-      </tr>
-      <xsl:for-each select="tr/th">
-      <tr>
-        <th>
+   </tr>
+      <xsl:for-each select="accounts/listof">
+   <tr>
+        <td>
           <xsl:value-of select="Name"/>
-        </th>
-        <th>
+        </td>
+        <td>
           <xsl:value-of select="Phone"/>
-        </th>
-        <th>
+        </td>
+        <td>
           <xsl:value-of select="Email"/>
-        </th>
-        <th>
+        </td>
+        <td>
           <xsl:value-of select="Account Total"/>
-       </th>
+       </td>
       </tr>
      </xsl:for-each>
     </table>
