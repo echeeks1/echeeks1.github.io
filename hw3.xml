@@ -6,14 +6,14 @@
 <phone>(532) 555-9939</phone><
 <e-mail>gwu@brockton.com</e-mail>
 <account_total>$60,000</account_total>
-</listof>
+  </listof>
 <tr>
 <th><Name><First>Cynthia</First><Last>Browne</Last></Name>
 <th><Address><Street>71 Circuit Ct.</Street><City>Wheaton</City><State>MN</State><Zip>89321</Zip></Address>
 <th><Phone>(532) 555-3813</Phone>
 <th><E-mail>cynthia@brownes.com</E-mail>
 <th><Account_Total>$80,000</Account_Total>
-   </tr>
+</tr>
  <tr>
 <Name>
   <First>Robert</First>
