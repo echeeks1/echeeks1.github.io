@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <accounts> 
   <listof> 
-<name><First>Grant</First><Last>Wu</Last></name>
-<address><Street>55 Hawking Street</Street><City>Delton</City><State>MN</State><Zip>89011</Zip></address>
-<phone>(532) 555-9939</phone><
+<name><first>Grant</first><last>Wu</last></name>
+<address><street>55 Hawking</street><city>Delton</city><state>MN</state><zip>89011</zip></address>
+<phone>(532) 555-9939</phone>
 <e-mail>gwu@brockton.com</e-mail>
-<account_total>$60,000</account_total>
+<account total>$60,000</account total>
   </listof>
 <tr>
 <th><Name><First>Cynthia</First><Last>Browne</Last></Name>
