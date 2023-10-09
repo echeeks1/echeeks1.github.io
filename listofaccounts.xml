@@ -3,7 +3,7 @@
 <accounts> 
   <listof> 
     <name>Grant Wu</name>
-    <address>55 Hawking Delton MN 89011</address>
+    <address>55 Hawking, Delton, MN 89011</address>
     <phone>(532) 555-9939</phone>
     <e-mail>gwu@brockton.com</e-mail>
     <account total>$60,000</account total>
@@ -41,7 +41,7 @@
     <address>31 Alice Avenue, Delton, MN 89011</address>
     <phone>(532) 555-7212</phone>
     <e-mail>cka@ispnet.net</e-mail>
-    <account Total>$125,000</account Total>
+    <account total>$125,000</account total>
   </listof>
   <listof>
     <name>Lee Hayes</name>
