@@ -1,5 +1,5 @@
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">  
-  <xsl:template match="/">
+<xsl:stylesheet version="1.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <html>
      <head>
        <title><h1>List of Clients</h1></title>
