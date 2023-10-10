@@ -14,7 +14,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <th>Email</th>
         <th style="text-align:right">Account Total</th>
     </tr>
-        <xsl:for-each select="accounts/listof">
+        <xsl:for-each select="accounts/client">
     <tr>
         <td><xsl:value-of select="title"/></td>
         <td><xsl:value-of select="address"/></td>
