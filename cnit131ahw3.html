@@ -3,8 +3,9 @@
 <xsl:output method="html"/>
 <xsl:template match="/">
 
-<html>
-<head>
+<html><head><title><h1 style="font-style:bold; color:black;">List of Clients</h1></title></head>
+
+<body>   
 <style>
 table {
    <table border="1">
