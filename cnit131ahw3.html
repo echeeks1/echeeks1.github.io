@@ -3,8 +3,6 @@
 <xsl:output method="html"/>
 <xsl:template match="/">
 
-
-<!DOCTYPE html>
 <html>
 <head>
 <style>
