@@ -3,7 +3,6 @@
 <xsl:output method="html"/>
 <xsl:template match="/">
 
-<html><head><title><h1 style="font-style:bold; color:black;">List of Clients</h1></title></head>
 
 <body>   
 <style>
@@ -27,7 +26,7 @@ tr:nth-child(even) {
     
 <html>
 <body>
-    <h1>List of Clients</h1>
+<html><head><title><h1 style="font-style:bold; color:black;">List of Clients</h1></title></head>
    
         <th>Name</th>
         <th>Address</th>
