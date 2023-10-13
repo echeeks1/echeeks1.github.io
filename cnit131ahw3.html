@@ -35,7 +35,7 @@ tr:nth-child(even) {
         <th>Email</th>
         <th style="text-align:right">Account_Total</th>
     </tr>
-        <xsl:for-each select="accounts/client">
+        <xsl:for-each select="clients/client">
     <tr>
         <td><xsl:value-of select="title"/></td>
         <td><xsl:value-of select="address"/></td>
