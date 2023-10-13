@@ -3,8 +3,6 @@
 <xsl:output method="html"/>
 <xsl:template match="/">
 
-<head><h1>List of Clients</h1></head>
-
 <body>   
 <style>
 table {
